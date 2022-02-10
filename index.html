@@ -5,10 +5,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div class="filter">
+  <div class="filter-btns">
+    <div data-filter="all" class="filter-btns__item active">все</div>
+    <div data-filter="animals" class="filter-btns__item active">животные</div>
+    <div data-filter="people" class="filter-btns__item active">люди</div>
+    <div data-filter="nature" class="filter-btns__item active">природа</div>
+
+    <select id="filter-options">
+      <option value="all">Все</option>
+      <option value="animals">животные</option>
+      <option value="people">люди</option>
+      <option value="nature">природа</option>
+    </select>
+  </div>
+  <div class="filter-content">
+    <img class="all animals scale-in-ver-center" src="images/1.png">
+    <img class="all nature scale-in-ver-center" src="images/2.png">
+    <img class="all animals scale-in-ver-center" src="images/3.png">
+    <img class="all animals scale-in-ver-center" src="images/4.png">
+    <img class="all people scale-in-ver-center" src="images/5.png">
+    <img class="all animals scale-in-ver-center" src="images/6.png">
+    <img class="all nature scale-in-ver-center" src="images/1.png">
+    <img class="all people scale-in-ver-center" src="images/2.png">
+    <img class="all people scale-in-ver-center" src="images/3.png">
+    <img class="all animals scale-in-ver-center" src="images/4.png">
+    <img class="all people scale-in-ver-center" src="images/5.png">
+    <img class="all nature scale-in-ver-center" src="images/6.png">
+  </div>
+</div>
   
-  <p>Hello world</p>
+ 
   <script src="js/script.js"></script>
 </body>
 </html>
